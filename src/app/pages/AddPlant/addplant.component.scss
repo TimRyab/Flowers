@@ -1,0 +1,42 @@
+*{
+  font-family: sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  border-radius: 30px;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+
+input {
+  border: none;
+    border-bottom: 2px solid purple;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+form input{
+  padding: 10px;
+  margin: 0 0 10px 0;
+  font-size: 40px;
+}
+
+.btn{
+  font: inherit;
+	font-size: 1.25rem;
+	padding: 1em;
+	width: 100%;
+	font-weight: 500;
+	background-color: purple;
+	border-radius: 6px;
+	color: #FFF;
+	border: 0;
+}

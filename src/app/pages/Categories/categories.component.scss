@@ -1,0 +1,23 @@
+*{
+  font-family: sans-serif;
+}
+
+.container{
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 300px;
+  display: flex;
+  gap: 20px;
+  
+  .category{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+ }
+}

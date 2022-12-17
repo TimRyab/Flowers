@@ -1,0 +1,10 @@
+<div class="container">
+  <form #plantsFrom="ngForm" (ngSubmit)="addPlant(plantsFrom.value)">
+    <input type="text" placeholder="Название" name="name"  ngModel required>
+    <input type="text" placeholder="Описание" name="description"  ngModel  >
+    <input type="text" placeholder="Изображение" name="images" ngModel>
+    <input type="text" placeholder="Категория" name="category" ngModel required >
+    <button class="btn" type="submit" >Добавить</button>
+  </form>
+</div>
+

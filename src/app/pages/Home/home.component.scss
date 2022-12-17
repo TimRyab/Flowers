@@ -1,0 +1,28 @@
+h1{
+  font-family: sans-serif;
+  margin: 30px;
+  position: absolute;
+  left: 45%;
+}
+
+.container{
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 30px;
+}
+.prime{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img{
+    margin: 10px 0 0 0;
+      width: 1000px;
+      height: 600px;
+      border-radius: 50px;
+    }
+}

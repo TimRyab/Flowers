@@ -1,0 +1,6 @@
+<div class="cards">
+  <a class="card" *ngFor="let plt of allPlants" routerLink="/plant/{{plt._id}}">
+    <img src="{{plt.images}}" alt="no photo" width="350">
+    <p>{{plt.name || "plant"}}</p>
+  </a>
+</div>
